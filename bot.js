@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
-const myid = ['ID'];
+const myid = ['694463782428344331'];
+const developers = ['694463782428344331'];
 const prefix = ['$'];
 const client = new Discord.Client();
 const client2 = new Discord.Client();
@@ -24,6 +25,8 @@ client6.login(process.env.TOKEN6);
 
 
 client.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
   if (message.content === 'd1') {
 message.channel.send('#daily')
   }
@@ -43,6 +46,8 @@ message.channel.send('#profile')
 });
  
 client2.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
   if (message.content === 'd2') {
 message.channel.send('#daily')
   }
@@ -62,6 +67,8 @@ message.channel.send('#profile')
 });
  
 client3.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
   if (message.content === 'd3') {
 message.channel.send('#daily')
   }
@@ -81,6 +88,8 @@ message.channel.send('#profile')
 });
  
 client4.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
   if (message.content === 'd4') {
 message.channel.send('#daily')
   }
@@ -100,6 +109,8 @@ message.channel.send('#profile')
 });
  
 client5.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
   if (message.content === 'd5') {
 message.channel.send('#daily')
   }
@@ -119,6 +130,8 @@ message.channel.send('#profile')
 });
 
 client6.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
   if (message.content === 'd6') {
 message.channel.send('#daily')
   }
@@ -142,18 +155,24 @@ message.channel.send('#profile')
 
 
 client.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``1`` ")
     }
 });
 
 client2.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``2`` ")
     }
 });
 
 client3.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``3`` ")
     }
@@ -166,12 +185,16 @@ client4.on('message', message => {
 });
 
 client5.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``5`` ")
     }
 });
 
 client6.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
     if(message.content === prefix+'number'){
         message.channel.send(" My Token Is ``6`` ")
     }
@@ -181,6 +204,8 @@ client6.on('message', message => {
 //???????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
 
 client.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
@@ -195,6 +220,8 @@ if (message.content === prefix+'fast') {
 });
 
 client2.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
@@ -209,6 +236,8 @@ if (message.content === prefix+'fast') {
 });
 
 client3.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
@@ -223,6 +252,8 @@ if (message.content === prefix+'fast') {
 });
 
 client4.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
@@ -237,6 +268,8 @@ if (message.content === prefix+'fast') {
 });
 
 client5.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
@@ -251,6 +284,8 @@ if (message.content === prefix+'fast') {
 });
 
 client6.on('message', message => {
+var argresult = message.content.split(` `).slice(1).join(' ');
+if (!developers.includes(message.author.id)) return;
 if (message.content === prefix+'fast') {
       let count = 0;
       let ecount = 0;
